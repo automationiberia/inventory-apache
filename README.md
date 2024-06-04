@@ -1,7 +1,6 @@
 # inventory-apache
 
-This repository contains an Ansible inventory file (`inventory_cmdb.yaml`) for managing hosts in your CMDB (Configuration Management Database).
-
+This repository contains an Ansible inventory file (`inventory_apache.yaml`).
 ## Usage
 
 To view the inventory using Ansible:
