@@ -1,0 +1,24 @@
+deploy_vars:
+  instances:
+    apa-ins001:
+      exploited: true
+      fsdev: /dev/mapper/vgapache-lv_apache_datos
+      path: /apache-fs/apache-instance-001/
+      user: apache_user
+    apa-ins002:
+      exploited: true
+      fsdev: /dev/mapper/vgapache-lv_apache_datos
+      path: /apache-fs/apache-instance-002/
+      user: apache_user
+    apa-ins006:
+      exploited: true
+      fsdev: /dev/mapper/vgapache-lv_apache_datos
+      path: /apache-fs/apache-instance-006/
+      user: apache_user
+    apa-ins008:
+      exploited: true
+      fsdev: /dev/mapper/vgapache-lv_apache_datos
+      path: /apache-fs/apache-instance-008/
+      user: apache_user
+  is_NFS: false
+  type: Apache
